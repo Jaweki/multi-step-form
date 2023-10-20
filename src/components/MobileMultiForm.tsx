@@ -121,7 +121,6 @@ const MobileMultiForm = () => {
         }`}
       >
         <button
-          id="mobileNextBtn"
           onClick={handleNext}
           className={`w-[110px] h-[45px] rounded-lg hover:bg-primary-purplishBlue bg-primary-marineBlue text-white text-opacity-80 `}
         >
@@ -130,7 +129,6 @@ const MobileMultiForm = () => {
           }`}
         </button>
         <button
-          id="mobileBackBtn"
           onClick={handleBack}
           className={`w-[110px] h-[45px] rounded-lg text-neutral-coolGray hover:bg-neutral-coolGray hover:text-primary-marineBlue ${
             step == 1 ? "hidden" : ""

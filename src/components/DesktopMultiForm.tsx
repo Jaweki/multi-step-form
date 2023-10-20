@@ -119,7 +119,7 @@ const DesktopMultiForm = () => {
             }`}
           >
             <button
-              id="mobileBackBtn"
+              type="button"
               onClick={handleBack}
               className={`w-[110px] h-[45px] rounded-lg text-neutral-coolGray hover:bg-neutral-coolGray hover:text-primary-marineBlue ${
                 step == 1 ? "hidden" : ""
@@ -129,7 +129,6 @@ const DesktopMultiForm = () => {
             </button>
             <button
               type="submit"
-              id="mobileNextBtn"
               onClick={handleNext}
               className={`w-[110px] h-[45px] rounded-lg hover:bg-primary-purplishBlue bg-primary-marineBlue text-white text-opacity-80 absolute right-16 bottom-8 `}
             >
